@@ -1,0 +1,86 @@
+/* AppHeader.css */
+
+/* Header styling */
+.app-header {
+    background-color: #333;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  /* Navbar toggler styling */
+  .navbar-toggler {
+    border: none;
+  }
+  
+  /* Navbar brand styling */
+  .navbar-brand {
+    height: 80px;
+    width: 154.72px;
+    margin-left: 3px;
+  }
+  
+  /* Navbar link styling */
+  .navbar-nav .nav-link {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #fff;
+  }
+  
+  /* Search button styling */
+  .search-button {
+    color: #fff;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    padding-left: 40px;
+margin-bottom: 15px;
+  }
+  
+  /* Search input styling */
+  .search-input {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Container styling */
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  /* Additional styling for the AppHeader component */
+  .AppHeader {
+    height: 130px;
+  }
+  
+  /* Additional styling for the AppLink component */
+  .AppLink {
+    font-family: "Noto Sans SC Medium";
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  
+  /* Additional styling for the logo spin animation */
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

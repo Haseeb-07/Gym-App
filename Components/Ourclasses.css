@@ -1,0 +1,77 @@
+.our-classes p{
+text-align: center;
+}
+.our-classes h1{
+  text-align: center;
+  }
+.col{
+  height: auto;
+}
+.pics{
+  padding-top: 100px;
+}
+.konjugate{
+  align-items: center;
+  background-color: #FF6413;
+}
+.mycoldark{
+  text-align: center;
+background-color:#252924;
+height:300px;}
+
+.mycolblack{
+  text-align: center;
+background-color:rgb(0, 0, 0);
+height:300px;}
+.mycolblack h2{
+ color: #FFFFFF;
+ margin-top:20px;
+ margin-bottom:-20px;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 700;
+
+}
+.mycolblack p{
+  color: #FFFFFF;
+  padding: 30px;
+ }
+ .mycolblack img {
+  margin-top:-20px;
+  padding-bottom: 5px;
+  height: 50px;
+ }
+ @media only screen and (max-width: 767px) {
+
+  .mycoldark{
+  display: none;  
+  }
+  .mycolblack p{
+    max-width: 500px;
+  }
+  .mycolblack h2{
+    max-width: 500px;
+  }
+  
+  .konjugate{
+    align-items: center;
+    background-color: #FF6413;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+ }
+ @media screen and (min-width: 768px) and (max-width: 974px) {
+.mycolblack p{
+  font-size: smaller;
+}
+  .mycolblack img{
+    height: 50px;
+    
+  }
+  .abouttext{
+    margin-top: 200px;
+  }
+  .orbl img {
+    width: 445px;
+    height: 500px;
+  }
+ }
