@@ -1,3 +1,142 @@
-.Card{
-    display:flex;
+.blognewsleft {
+  width: 400px;
+  height:600px;
+  background-color: #FF6413;
+  justify-content: center;
+    align-items: center; 
 }
+
+.blognewsright{
+    max-width: 500px;
+    height:600px;
+}
+.blognewsleft h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: medium;
+    font-size: 50;
+    color: white;
+    margin-top: 250px;
+    margin-left: 80px;
+}
+.blognewsleft p{
+    color: #F8F8F8;
+    font-family: 'Noto Sans SC Medium';
+    font-size: 20;
+    margin-left: 80px;
+    max-width: 400px;
+}
+.cards{
+    display: flex;
+}
+/* Map css */
+/* Styles for larger screens */
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+
+@media (max-width: 768px) {
+  .map-responsive {
+    padding-bottom: 50%; 
+  }
+  .contactcontainer{
+    height:600px;
+  }
+}
+.contactcontainer{
+    position: absolute;
+    background-color: #F8F8F8;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.contactform{
+  position: absolute;
+  margin-top: 0px;
+  left: 0;
+  right: 0;
+  bottom: 120px;
+  background: rgba(255, 255, 255, 0.8); 
+  text-align: center;
+  padding: 20px; 
+}
+.contactform h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    padding-top: 50px;
+   
+  }
+  .contactform p{
+    font-family: 'Noto Sans SC', sans-serif;
+    color: #707070;
+  }
+  .contactform input {
+      padding: 10px;
+      border: 0px solid #ccc;
+      color:black;
+      border-radius: 5px;
+      background-color: #f8f8f8;
+      font-size: 16px;
+      width: 350px;
+      margin-right: 30px;
+    }
+  .contactform textarea{
+    margin-top: 40px;
+    margin-right: 32px;
+    background-color: #f8f8f8;
+    border: 0px solid #ccc;
+    /* width: 400px; */
+  }
+  .contactform img{
+    height:50px;
+  }
+  @media (max-width: 1024px) {
+    .contactform{
+        margin-top: 0;
+    }
+  .contactcontainer{
+    margin-top: 20px;
+    height: 100vh;
+  } 
+  
+  }
+  @media (max-width: 892px){
+    .contactform{
+        top: 50px;
+        height: 500px;
+        position: relative;
+    }
+    .contactform h2{
+        font-size:medium;
+    }
+    .contactform p{
+        font-size: xx-small;
+    }
+    .contactform input{
+        width: 200px;
+    }
+    .contactform textarea{
+        width: 400px;
+    }
+    .contactform img{
+        height: 30px;
+        width: 90px;
+    }
+    .contactcontainer{
+        height:300px;
+    }
+
+  }
+  
+  
+    

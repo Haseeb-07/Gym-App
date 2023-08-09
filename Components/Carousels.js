@@ -1,7 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import whey from '../whey.png';
-import './Carousels.css'; 
+import './Carousels.css';
 
 function Carousels() {
   return (
@@ -31,6 +31,7 @@ function Carousels() {
           
         </Carousel.Item>
       </Carousel>
+      
     </div>
   );
 }

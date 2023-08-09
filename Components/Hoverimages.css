@@ -1,0 +1,58 @@
+.CustomCard {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap to the next row */
+     /* Distribute space between columns */
+  }
+  
+  
+  .Card {
+    position: relative;
+    width: 450px;
+    height: 445px;
+    overflow: hidden;
+    transition: transform 0.3s, filter 0.3s;
+  }
+
+  
+  .Card:hover .Card-Img {
+    filter: blur(5px);
+  }
+  
+  .Card-Img {
+    width: 100%;
+    height: 100%;
+    transition: filter 0.3s;
+  }
+  
+  .Card-Overlay {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: #FF6413;
+    opacity: 0;
+    transition: opacity 0.3s;
+    margin: 20px;
+  }
+  .card-btn{
+    margin-top: 15px;
+    height: 50px;
+  }
+  .Card-Overlay h3{
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+  }
+
+  .Card:hover .Card-Overlay {
+    opacity: 1;
+  }
+  
