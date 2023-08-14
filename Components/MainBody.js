@@ -4,10 +4,9 @@ import playvid from '../playvideo.png'
 import { Container, Row, Col } from 'react-bootstrap'
 import booknow from '../booknow.png'
 import booknow2 from '../bookbutton2.png'
-import orbl from '../orangeblack.png'
-import readmore from '../readmore.png'
 import Ourclasses from '../Components/Ourclasses';
-import Carousels from './Carousels';
+import CustomCarousel from './CustomCarousel';
+import Aboutus from './Aboutus';
 export default function MainBody() {
   return (
     <div>
@@ -29,7 +28,7 @@ export default function MainBody() {
         
       </div>
       <br/>
-      <div><Carousels/></div>
+      <div><CustomCarousel/></div>
       <Container fluid className="grid">
       <Row>
         <Col className="custom-col-1">
@@ -52,26 +51,8 @@ export default function MainBody() {
         </Col>
       </Row>
       </Container>
-      </div>
-    <Container fluid className="about">
-<Row>
-  <Col className="about">
-  <div className='abouttext'>
-    <h1>ABOUT US</h1>
-    <p>Excepteur sint occaecat cupidatat non proident sunt iculpa qui officia deserunt mollit anim est. laborum sed perspiciatis unde omnis natus error sit voluptatem accusantium dolore mque laudantium totam rem aperiam.</p>
-
-<p>Dicta sunt explicabo. nemo enim ipsam voluptatem quia magni voluptassit aspernatur aut odit aut fugit sed quia consequuntur magni dolores eos.</p>
-  <a href="/"><img src={readmore} alt="Read More" /></a>
-  </div>
-  </Col>
-  <Col className='about'>
-  <div className="orbl">
-  <img src={orbl} alt="Could'nt Load" />
-  </div>
-  </Col>
-  
-</Row>
-    </Container>  
+      </div> 
+    <Aboutus/>
   <Ourclasses/>
     </div>
   );

@@ -1,0 +1,35 @@
+.aboutText{
+    margin-left: 100px;
+    justify-content: center;
+    margin-top: 200px;
+    max-width: 500px;
+}
+.aboutText img{
+    height: 50px;
+}
+.aboutText p{
+    color: gray;
+    text-align: left;
+    max-width: 450px;
+}
+/* styles.css */
+.orangeblack img {
+    margin-top: 70px;
+    height: 500px;
+    width: 380px;
+    margin-bottom: 20px;
+   
+  }
+  @media screen and (max-width: 723px) {
+    .orangeblack img {
+      margin-left: 50px;
+      width:300px
+    }
+    .aboutText{
+        margin-left: 30px;
+      
+        margin-top: 100px;
+    }
+  }
+  
+  

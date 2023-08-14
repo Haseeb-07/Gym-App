@@ -17,6 +17,7 @@
     color: white;
     margin-top: 250px;
     margin-left: 80px;
+    
 }
 .blognewsleft p{
     color: #F8F8F8;
@@ -24,6 +25,7 @@
     font-size: 20;
     margin-left: 80px;
     max-width: 400px;
+    text-align: left;
 }
 .cards{
     display: flex;
