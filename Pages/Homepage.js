@@ -6,7 +6,6 @@ import AppFooter from '../Components/AppFooter';
 import MainBody from '../Components/MainBody';
 import Blognews from '../Components/Blognews';
 import OurTrainer from '../Components/OurTrainer';
-
 import '../AppHeader.css';
 export default function Homepage() {
   return (

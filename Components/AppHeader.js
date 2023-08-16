@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../gymlogo.png';
 import { FaSearch } from 'react-icons/fa';
-
+import { Link } from 'react-router-dom';
 const AppHeader = () => {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true);
   const [isSearchOpen, setIsSearchOpen] = useState(false);
@@ -35,29 +35,29 @@ const AppHeader = () => {
         <div className={`collapse navbar-collapse ${isNavCollapsed ? '' : 'show'}`} id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <a className="nav-link" href="http://localhost:3000/">
+              <Link to ="http://localhost:3000/" className="nav-link">
                 HOME
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/about">
+              <Link to="/about" className="nav-link" >
                 ABOUT US
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/classes">
+              <Link to ="/classes" className="nav-link">
                 CLASSES
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/contact">
+              <Link to="/contact" className="nav-link" >
                 CONTACT US
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="/news">
+              <Link to="/news" className="nav-link" >
                 NEWS
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
               <button
