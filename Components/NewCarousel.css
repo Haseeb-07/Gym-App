@@ -1,6 +1,6 @@
-/* External CSS for styling */
+
 .new-carousel-container {
-    max-width: 800px; /* Adjust as needed */
+    max-width: 800px; 
     margin: 0 auto;
     margin-left: 100px;
     
@@ -9,50 +9,52 @@
   .new-carousel-item {
     width: 150px;
     height: 360px;
-    margin-right: 10px; /* Adjust spacing between slides */
+    margin-right: 10px; 
   }
   
   .new-carousel-item img {
     max-width: 100%;
     max-height: 100%;
     display: block;
-    margin: auto; /* Center the image within the carousel item */
+    margin: auto; 
   }
   
   .new-navigation-buttons {
-    margin-top: 20px; /* Add spacing between buttons and carousel */
+    margin-top: 20px; 
   }
   
   .new-carousel-container {
-    position: relative; /* Set container as reference for absolute positioning */
+    position: relative; 
   }
   
   .new-nav-button {
     cursor: pointer;
-    position: absolute; /* Position buttons absolutely within the container */
-    top: 50%; /* Align vertically at the middle */
-    transform: translateY(-50%); /* Adjust for centering */
-    margin: 0px /* Adjust spacing between buttons */
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin: 0px;
   }
   
   .new-prev-button {
-    left: 0; /* Position the "Previous" button at the left edge */
-    transform: translate(-50%, -50%) scaleX(-1); /* Flip and center horizontally */
+    left: 0; 
+    transform: translate(-50%, -50%) scaleX(-1);
     height: 40px;
     
   }
   
   .new-next-button {
-    right: 0; /* Position the "Next" button at the right edge */
-    transform: translate(50%, -50%); /* Center horizontally */
+    right: 0; 
+    transform: translate(50%, -50%); 
     height: 40px;
   }
+  .new-carousel {
+    margin-top: 100px;
+    margin-right: 10px;
+}
   
-  
-  /* You can also define additional styles for different breakpoints if needed */
   @media screen and (max-width: 723px) {
     .new-carousel-container {
-      max-width: 400px; /* Adjust as needed */
+      max-width: 400px; 
       margin: 0 auto;
       margin-left: 30px;
     }

@@ -126,6 +126,7 @@
     }
     .contactform input{
         width: 200px;
+        margin-top: 10px;
     }
     .contactform textarea{
         width: 400px;

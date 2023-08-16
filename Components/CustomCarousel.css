@@ -1,6 +1,6 @@
-/* External CSS for styling */
+
 .carousel-container {
-    max-width: 800px; /* Adjust as needed */
+    max-width: 800px;
     margin: 0 auto;
     margin-left: 100px;
   }
@@ -8,46 +8,46 @@
   .carousel-item {
     width: 160px;
     height: 160px;
-    margin-right: 10px; /* Adjust spacing between slides */
+    margin-right: 10px; 
   }
   
   .carousel-item img {
     max-width: 100%;
     max-height: 100%;
     display: block;
-    margin: auto; /* Center the image within the carousel item */
+    margin: auto; 
   }
   
   .navigation-buttons {
-    margin-top: 20px; /* Add spacing between buttons and carousel */
+    margin-top: 20px; 
   }
 
 .carousel-container {
-    position: relative; /* Set container as reference for absolute positioning */
+    position: relative; 
   }
   
   .nav-button {
     cursor: pointer;
-    position: absolute; /* Position buttons absolutely within the container */
-    top: 50%; /* Align vertically at the middle */
-    transform: translateY(-50%); /* Adjust for centering */
-    margin: 0 20px; /* Adjust spacing between buttons */
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    margin: 0 20px; 
   }
   
   .prev-button {
-    left: 0; /* Position the "Previous" button at the left edge */
-    transform: translate(-50%, -50%) scaleX(-1); /* Flip and center horizontally */
+    left: 0; 
+    transform: translate(-50%, -50%) scaleX(-1); 
     height: 40px;
 }
   
   .next-button {
-    right: 0; /* Position the "Next" button at the right edge */
-    transform: translate(50%, -50%); /* Center horizontally */
+    right: 0; 
+    transform: translate(50%, -50%); 
     height: 40px;
   }
   .slick-prev:before {
-    content: ''; /* Set content to an empty string */
-    /* You can also set other properties like display, width, etc., as needed */
+    content: ''; 
+    
   }
   .slick-next:before {
     content: '';
@@ -55,7 +55,7 @@
   
   @media screen and (max-width: 723px){
     .carousel-container {
-        max-width: 400px; /* Adjust as needed */
+        max-width: 400px; 
         margin: 0 auto;
         margin-left: 30px;
       }

@@ -1,20 +1,27 @@
 import React from 'react';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AppHeader from './Components/AppHeader'; 
-import AppFooter from './Components/AppFooter';
-import MainBody from './Components/MainBody';
-import Blognews from './Components/Blognews';
-import OurTrainer from './Components/OurTrainer';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import AboutUspage from './Pages/AboutUspage';
+import Homepage from './Pages/Homepage';
+import OurClasses from './Pages/OurClasses';
+import ContactUspage from './Pages/ContactUspage';
+import Newspage from './Pages/Newspage';
+import Nopage from './Pages/Nopage';
 import './AppHeader.css';
 function App() {
   return (
     <div>
-      <AppHeader /> 
-      <MainBody/>
-      <OurTrainer/>
-      <Blognews/>
-      <AppFooter/>
+      <BrowserRouter>
+      <Routes>
+        <Route index element={<Homepage/>}/>
+        <Route path="/about" element={<AboutUspage/>}/>
+        <Route path="/classes" element={<OurClasses/>}/>
+        <Route path="/contact" element={<ContactUspage/>}/>
+        <Route path="/news" element={<Newspage/>}/>
+        <Route path="*" element={<Nopage/>}/>
+      </Routes>
+      </BrowserRouter>
  
 </div>
   );

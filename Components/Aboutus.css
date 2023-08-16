@@ -4,6 +4,9 @@
     margin-top: 200px;
     max-width: 500px;
 }
+.aboutText h1{
+  font-size: 30px;
+}
 .aboutText img{
     height: 50px;
 }

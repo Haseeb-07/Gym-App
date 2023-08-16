@@ -7,14 +7,15 @@
     
 }
 .Ourtrainer-text h3{
+    font-size: 30px;
     font-family: 'Raleway', sans-serif;
- font-weight: 700;
- font-size: 2.5rem;
+    font-weight: 700;
     
 }
 .Ourtrainer-text p{
    color: #131313;
    font-family: "Noto Sans SC Medium", sans-serif; 
+   line-height: 10px;
 }
 .trainer-hp{
     margin-top: 100px;
