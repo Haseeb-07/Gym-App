@@ -17,7 +17,8 @@ const Blognews = () => {
         <div className='Card-Overlay'>
           <Card.Title><h3>Advanced Gym</h3></Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+           <br />
           <a href="/">
             <img className='card-btn'src={readmore} alt="" />
           </a>
@@ -29,8 +30,9 @@ const Blognews = () => {
         <div className='Card-Overlay'>
           <Card.Title><h3>Konjugate Methods</h3></Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
-            <a href="/">
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+           <br />
+             <a href="/">
             <img className='card-btn'src={readmore} alt="" />
           </a>
           </Card.Text>
@@ -41,7 +43,8 @@ const Blognews = () => {
         <div className='Card-Overlay'>
           <Card.Title><h3> Kettlebell</h3></Card.Title>
           <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of the card's content.
+          Some quick example text to build on the card title and make up the bulk of the card's content.
+           <br />
             <a href="/">
             <img className='card-btn'src={readmore} alt="" />
           </a>
@@ -54,7 +57,7 @@ const Blognews = () => {
           <Card.Title><h3>Weight lifting</h3></Card.Title>
           <Card.Text>
             Some quick example text to build on the card title and make up the bulk of the card's content.
-            <a href="/">
+           <br /> <a href="/">
             <img className='card-btn'src={readmore} alt="" />
           </a>
           </Card.Text>
@@ -66,6 +69,7 @@ const Blognews = () => {
           <Card.Title><h3>Striking</h3></Card.Title>
           <Card.Text>
             Some quick example text to build on the card title and make up the bulk of the card's content.
+            <br />
             <a href="/">
             <img className='card-btn'src={readmore} alt="" />
           </a></Card.Text>
@@ -77,6 +81,7 @@ const Blognews = () => {
           <Card.Title><h3> Advanced Gym</h3></Card.Title>
           <Card.Text>
             Some quick example text to build on the card title and make up the bulk of the card's content.
+            <br />
             <a href='/'> <img className='card-btn'src={readmore} alt="" />
           </a>
           </Card.Text>

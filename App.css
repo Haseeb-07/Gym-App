@@ -40,6 +40,12 @@
 .custom-bg {
   background-color:#010101;
 }
+@media (max-width: 992px) 
+{
+  .navbar-nav li {
+    z-index: 9;
+  }
+}
 @media (max-width: 767px) {
   .navbar-nav li {
   
@@ -49,7 +55,9 @@
     margin-bottom: -10px;
     width: 150px;
     margin-left: -19px;
+    z-index: 9;
   }
+  
  
 .search-bar {
   

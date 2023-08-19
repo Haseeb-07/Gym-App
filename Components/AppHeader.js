@@ -35,7 +35,7 @@ const AppHeader = () => {
         <div className={`collapse navbar-collapse ${isNavCollapsed ? '' : 'show'}`} id="navbarNav">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item">
-              <Link to ="http://localhost:3000/" className="nav-link">
+              <Link to ="/home" className="nav-link">
                 HOME
               </Link>
             </li>
