@@ -7,7 +7,7 @@
   
   .Card {
     position: relative;
-    width: 450px;
+    width: 449px;
     height: 445px;
     overflow: hidden;
     transition: transform 0.3s, filter 0.3s;
@@ -19,7 +19,7 @@
   }
   
   .Card-Img {
-    width: 100%;
+    width: 100px;
     height: 100%;
     transition: filter 0.3s;
   }
