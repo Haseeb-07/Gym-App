@@ -17,9 +17,9 @@ const AppHeader = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark custom-bg" position="sticky" top="0">
       <div className="container">
-        <a className="navbar-brand" href="abc.com">
-          <img src={logo} alt="Logo" height="82.72" width="154.27" className="mr-2" />
-        </a>
+        <Link to ="/home"className="navbar-brand" >
+          <img src={logo} alt="Logo" height="60.72" width="124.27" className="mr-2" />
+        </Link>
         <button
           className={`navbar-toggler ${isNavCollapsed ? 'collapsed' : ''}`}
           type="button"

@@ -7,7 +7,7 @@
   
   .Card {
     position: relative;
-    width: 449px;
+    width: 447px;
     height: 445px;
     overflow: hidden;
     transition: transform 0.3s, filter 0.3s;
